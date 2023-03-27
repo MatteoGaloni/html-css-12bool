@@ -4,8 +4,14 @@
 
 .row {
     background-color: blue;
+
 }
 
 .row>div {
     border: solid 1px white;
+    padding: 0.5rem;
+}
+
+.nested {
+    background-color: green;
 }
