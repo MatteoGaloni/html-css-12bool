@@ -2,16 +2,14 @@
     background-color: red;
 }
 
-.row {
-    background-color: blue;
 
-}
 
 .row>div {
     border: solid 1px white;
-    padding: 0.5rem;
+    background-color: blue;
+    padding: 0.5rem
 }
 
-.nested {
+.row.nested>div {
     background-color: green;
 }
