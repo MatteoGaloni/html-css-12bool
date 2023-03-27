@@ -1,3 +1,11 @@
 .container {
     background-color: red;
 }
+
+.row {
+    background-color: blue;
+}
+
+.row>div {
+    border: solid 1px white;
+}
