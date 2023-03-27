@@ -1,0 +1,26 @@
+/********* MEDIA QUERIES *********/
+/******XS SMALL MOBILE FIRST ******/
+body.debug {
+    background: red;
+}
+
+/******SM RESPONSIVE: MOBILE ******/
+@media screen and (min-width: 576px) {
+    body.debug {
+        background: orange;
+    }
+}
+
+/******MD RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) {
+    body.debug {
+        background: yellow;
+    }
+}
+
+/******LG RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
+    body.debug {
+        background: green;
+    }
+}

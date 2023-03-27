@@ -4,7 +4,7 @@
 
 /******XS SMALL MOBILE FIRST ******/
 .container {
-    max-width: 1170px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -150,6 +150,11 @@
 /******SM RESPONSIVE: MOBILE ******/
 @media screen and (min-width: 576px) {
 
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
 
     /* *********************************** */
 
@@ -272,6 +277,11 @@
 /******MD RESPONSIVE: TABLET ******/
 @media screen and (min-width: 768px) {
 
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
     /* *********************************** */
     .col-md-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -392,6 +402,11 @@
 
 /******LG RESPONSIVE: DESKTOP ******/
 @media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
     /* *********************************** */
 
